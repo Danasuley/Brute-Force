@@ -1,1 +1,23 @@
+AND Device Vendor = Microsoft
+Category Outcome = /Failure
+Type NOT correlation
+OR 
+External ID = 4776
+External ID = 4768
+External ID = 4625
+External ID = 4771
 
+OR
+Destination User Name contains user [ignore case]
+Destination User Name contains guest [ignore case]
+Destination User Name contains Гость [ignore case]
+Destination User Name contains Администратор [ignore case]
+Destination User Name contains admin [ignore case]
+Destination User Name contains flvbybcnhfnjh [ignore case]
+Destination User Name contains @dmin [ignore case]
+Destination User Name contains qwert [ignore case]
+Destination User Name contains director [ignore case]
+Destination User Name contains root [ignore case]
+Destination User Name contains office [ignore case]
+Destination User Name contains system [ignore case]
+Destination User Name contains support [ignore case]
